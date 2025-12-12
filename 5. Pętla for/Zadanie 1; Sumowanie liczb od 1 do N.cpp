@@ -6,12 +6,9 @@ int main(){
 	cout << "Podaj liczbe N: ";
 	cin >> a;
 	
-	cout << endl;
-	
-	cout << "Liczby nieparzyste od 1 do " << a << endl;
-	for(int b = 1; a >= b; b+=2)
+	for(int b = 0; b <= a; b++)
 	{
 		c += b;
-		cout << b << endl;
 	}
+	cout << "Suma liczb od 1 do " << a << " wynosi: " << c;
 }

@@ -8,10 +8,10 @@ int main(){
 	
 	cout << endl;
 	
-	cout << "Liczby nieparzyste od 1 do " << a << endl;
-	for(int b = 1; a >= b; b+=2)
+	cout << "Kwadraty liczb od 1 do " << a << endl;
+	for(int b = 1; a >= b; b++)
 	{
-		c += b;
-		cout << b << endl;
+		c = b * b;
+		cout << b << "^2" << " = " << c << endl;
 	}
 }
