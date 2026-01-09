@@ -1,30 +1,23 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int a;
-	int c = 0;
-	int d;
+	int wiersze;
+	int liczba = -1;
+	int kolumny;
 	cout << "Podaj liczbe wierszy: ";
-	cin >> a;
+	cin >> wiersze;
 	cout << "Podaj liczbe kolumn: ";
-	cin >> d;
+	cin >> kolumny;
 	
 	cout << endl;
 	
-	for(int b = 1; a <= b; b++)
+	for(int ktoryWiersz = 1; wiersze >= ktoryWiersz; ktoryWiersz++)
 	{
-		for(int e = 1; d <= e; e++)
+		for(int ktoraKolumna = 1; kolumny >= ktoraKolumna; ktoraKolumna++)
 		{
-			b += 2;
-			c += b;
-			cout << b << "\t";
+			liczba += 2;
+			cout << liczba << "\t";
 		}
 		cout << endl;
 	}
 }
-
-// nie dokonczone
-// nie dokonczone
-// nie dokonczone
-// nie dokonczone
-// nie dokonczone
