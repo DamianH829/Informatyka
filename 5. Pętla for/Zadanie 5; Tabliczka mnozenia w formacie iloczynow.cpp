@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 	int N;
-	int liczbaMnozenia = 0;
+	int liczbaMnozenia = 1;
 	
 	cout << "Podaj liczbe N: ";
 	cin >> N;
@@ -14,26 +14,17 @@ int main(){
 	
 	for(int a = 1; M > 0; a++)
 	{
-		G = 3;
+		G = N;
 		for(int F = 1; G > 0; F++)
 		{
 			D += 1;
 			liczba = liczbaMnozenia * D;
-			cout << liczbaMnozenia << " * " << D << " = " << liczba;
+			cout << liczbaMnozenia << " * " << D << " = " << liczba << endl;
 			G -= 1;
-			//cout << liczba << "\t";
 		}
-		D == 0;
+		D = 0;
 		M -= 1;
 		liczbaMnozenia += 1;
 		cout << endl;
 	}
 }
-
-// nie wiem co tu sie stalo // nie dokonczone
-// nie wiem co tu sie stalo // nie dokonczone
-// nie wiem co tu sie stalo // nie dokonczone
-// nie wiem co tu sie stalo // nie dokonczone
-// nie wiem co tu sie stalo // nie dokonczone
-// nie wiem co tu sie stalo // nie dokonczone
-// nie wiem co tu sie stalo // nie dokonczone
